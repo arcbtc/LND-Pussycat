@@ -35,11 +35,11 @@ void setup() {
   
 // CATHODE RGB SETUP, FOR ANNODE CHANGE 18 TO LOW
   pinMode(16, OUTPUT);
-  pinMode(18, OUTPUT); 
+  pinMode(17, OUTPUT); 
   pinMode(5, OUTPUT);
 
-  pinMode(17, OUTPUT);
-  digitalWrite(17, HIGH); 
+  pinMode(18, OUTPUT);
+  digitalWrite(18, HIGH); 
   pink();
   
 // START PORTAL 
@@ -65,23 +65,22 @@ void loop() {
 
 //GREEN -- running
 void green(){
-  digitalWrite(16, HIGH); digitalWrite(18, HIGH); digitalWrite(5, LOW);
+  digitalWrite(16, HIGH); digitalWrite(17, HIGH); digitalWrite(5, LOW);
 }
 
 //RED -- down
 void red(){
-  digitalWrite(16, LOW); digitalWrite(18, HIGH); digitalWrite(5, HIGH);
+  digitalWrite(16, HIGH); digitalWrite(17, LOW); digitalWrite(5, HIGH);
 }
 
 // PINK -- synching
 void pink(){
-  digitalWrite(16, LOW); digitalWrite(18, LOW); digitalWrite(5, HIGH);
+  digitalWrite(16, LOW); digitalWrite(17, LOW); digitalWrite(5, HIGH);
 }
 
 // PINK -- synching
 void blue(){
-  digitalWrite(16, HIGH); digitalWrite(18, LOW); digitalWrite(5, HIGH);
-  
+  digitalWrite(16, LOW); digitalWrite(17, HIGH); digitalWrite(5, HIGH);
 }
 
 //DISCO LOOP // transaction
@@ -139,6 +138,7 @@ void getinfo() {
     lnd_check = doc["alias"];
     if (!lnd_check){
       red();
+      delay(1000);
       return;   
     }
     synced_to_chain = doc["synced_to_chain"]; 
@@ -157,6 +157,7 @@ void getonchainbalance() {
   int lndport = atoi( lnd_port );
   if (!client.connect(lndserver, lndport)){
     red();
+    delay(1000);
     return;   
   }
   client.print(String("GET ")+ "https://" + lndserver +":"+ lndport + "/v1/balance/blockchain HTTP/1.1\r\n" +
