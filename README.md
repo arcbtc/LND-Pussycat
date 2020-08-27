@@ -13,3 +13,5 @@ BLUE = connecting to node
 
 
 Details configurable over wifi with a captive portal
+
+<img src="https://i.imgur.com/r99pb8E.png">
