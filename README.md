@@ -1,4 +1,4 @@
-<h1 style="font-size:80px;">ND Pussycat (･ω･)⚡</h1>
+LND Pussycat (･ω･)⚡
 # Discreet node monitor 
 
 
