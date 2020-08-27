@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/5mWAT9U.png">
+<img src="https://i.imgur.com/JVv86hR.png">
 ## Discreet node monitor 
 
 
