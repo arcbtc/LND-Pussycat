@@ -2,7 +2,8 @@
 
 # Discreet node monitor 
 
-<img src="https://i.imgur.com/rROvhIL.jpg">
+<img align="center" src="https://i.imgur.com/Z8Trjkw.gif">
+
 
 Keep your LND node locked away somewhere safe and monitor it with the LND Pussycat node monitor!
 
@@ -16,4 +17,3 @@ Keep your LND node locked away somewhere safe and monitor it with the LND Pussyc
 ## Details configurable over wifi with a captive portal:
 
 <img src="https://i.imgur.com/CIvCVxS.png">
-<center><img src="https://i.imgur.com/Z8Trjkw.gif"></center>
