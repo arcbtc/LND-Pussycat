@@ -1,4 +1,4 @@
-# LND Pussycat (･ω･)⚡
+<img src="https://i.imgur.com/5mWAT9U.png">
 ## Discreet node monitor 
 
 
