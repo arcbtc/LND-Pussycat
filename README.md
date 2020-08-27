@@ -1,5 +1,6 @@
 <img src="https://i.imgur.com/JVv86hR.png">
-## Discreet node monitor 
+
+# Discreet node monitor 
 
 
 Keep your LND node locked away somewhere safe and monitor it with the LND Pussycat node monitor!
