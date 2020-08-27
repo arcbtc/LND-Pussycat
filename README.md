@@ -5,10 +5,10 @@
 Keep your LND node locked away somewhere safe and monitor it with the LND Pussycat node monitor!
 
 
-RED = node down/disconnected
-GREEN = nodes running
-PINK = checking saved credentials exist/launching portal/synching
-BLUE = connecting to node 
+* RED = node down/disconnected
+* GREEN = nodes running
+* PINK = checking saved credentials exist/launching portal/synching
+* BLUE = connecting to node 
 
 
 
