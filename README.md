@@ -11,7 +11,6 @@ Keep your LND node locked away somewhere safe and monitor it with the LND Pussyc
 * PINK = checking saved credentials exist/launching portal/synching
 * BLUE = connecting to node 
 
-<img src="https://i.imgur.com/rROvhIL.jpg">
 
 ## Details configurable over wifi with a captive portal:
 
