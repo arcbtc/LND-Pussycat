@@ -8,6 +8,7 @@ Keep your LND node locked away somewhere safe and monitor it with the LND Pussyc
 
 * RED = node down/disconnected
 * GREEN = nodes running
+* DISCO = transaction
 * PINK = checking saved credentials exist/launching portal/synching
 * BLUE = connecting to node 
 
