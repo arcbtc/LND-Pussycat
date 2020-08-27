@@ -2,6 +2,8 @@
 
 # Discreet node monitor 
 
+<img src="https://i.imgur.com/rROvhIL.jpg">
+
 Keep your LND node locked away somewhere safe and monitor it with the LND Pussycat node monitor!
 
 * RED = node down/disconnected
@@ -10,6 +12,7 @@ Keep your LND node locked away somewhere safe and monitor it with the LND Pussyc
 * BLUE = connecting to node 
 
 <img src="https://i.imgur.com/rROvhIL.jpg">
-Details configurable over wifi with a captive portal:
+
+## Details configurable over wifi with a captive portal:
 
 <img src="https://i.imgur.com/CIvCVxS.png">
