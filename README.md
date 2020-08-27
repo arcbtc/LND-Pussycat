@@ -1,5 +1,5 @@
-LND Pussycat (･ω･)⚡
-# Discreet node monitor 
+# LND Pussycat (･ω･)⚡
+## Discreet node monitor 
 
 
 Keep your LND node locked away somewhere safe and monitor it with the LND Pussycat node monitor!
