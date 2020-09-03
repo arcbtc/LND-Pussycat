@@ -86,17 +86,17 @@ void blue(){
 //DISCO LOOP // transaction
 void disco(){
   for (int i = 0; i <= 10; i++) {
-    digitalWrite(16, LOW); digitalWrite(18, HIGH); digitalWrite(5, HIGH);
+    digitalWrite(16, LOW); digitalWrite(17, HIGH); digitalWrite(5, HIGH);
     delay(100);
-    digitalWrite(16, HIGH); digitalWrite(18, HIGH); digitalWrite(5, LOW);
+    digitalWrite(16, HIGH); digitalWrite(17, HIGH); digitalWrite(5, LOW);
     delay(100);
-    digitalWrite(16, HIGH); digitalWrite(18, LOW); digitalWrite(5, HIGH);
+    digitalWrite(16, HIGH); digitalWrite(17, LOW); digitalWrite(5, HIGH);
     delay(100);
-    digitalWrite(16, LOW); digitalWrite(18, LOW); digitalWrite(5, HIGH);
+    digitalWrite(16, LOW); digitalWrite(17, LOW); digitalWrite(5, HIGH);
     delay(100);
-    digitalWrite(16, LOW); digitalWrite(18, HIGH); digitalWrite(5, LOW);
+    digitalWrite(16, LOW); digitalWrite(17, HIGH); digitalWrite(5, LOW);
     delay(100);
-    digitalWrite(16, HIGH); digitalWrite(18, LOW); digitalWrite(5, LOW);
+    digitalWrite(16, HIGH); digitalWrite(17, LOW); digitalWrite(5, LOW);
     delay(100);
   }
   green();
