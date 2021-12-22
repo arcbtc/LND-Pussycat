@@ -1,6 +1,9 @@
 <img src="https://i.imgur.com/JVv86hR.png">
 
-# Discreet node monitor 
+# Discreet/passive node monitor 
+
+> <i>Join our <a href="https://t.me/makerbits">telegram support/chat</a>.</i>
+
 <p align="center">
 <img src="https://i.imgur.com/Z8Trjkw.gif">
 </p>
